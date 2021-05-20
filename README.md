@@ -1,8 +1,8 @@
 This simple project goal was to split lines in an input csv
 
-One of my colleague sent me a file in excel with the following format (CSV)
+One of my colleague sent me a file in excel with the following format (CSV):
 
-<id>,<hostname>,<used by>
+&lt;id&gt;,&lt;hostname&gt;,&lt;used by&gt;
 
 The latter column contained a comma-delimited list of users.
 I need that file to be integrated in a tool that counts the sum of usages. And each usage that is shared among 2 people counts for 0.5, as an equal split
